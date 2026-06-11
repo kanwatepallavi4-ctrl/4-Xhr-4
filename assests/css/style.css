@@ -1,0 +1,37 @@
+
+/* *{ 
+     margin: 0;
+     padding: 0;
+     box-sizing:border-box;
+} */
+
+.card{
+     background: white;
+     margin: 15px;
+     border: 2px rebeccapurple dotted;
+}
+
+body{
+     background: lightblue;
+     
+}
+
+.card-header h3{  
+     text-overflow: ellipsis;
+     overflow: hidden;
+     text-wrap: nowrap;   
+
+}
+
+.spinner{
+     top: 0;
+     left: 0;
+    
+     background-color: rgb(255,255,255,0.66);
+     height: 100%;
+     width: 100%;
+     position: fixed;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
